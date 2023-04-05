@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title> 
+    <script>
+        function clickToChange(){
+
+            // document.querySelector("#C").innerHTML ="Hello this has been changed by Queryselector"
+
+            // document.querySelector(".example").innerHTML = "Hello this will change only the first class"
+
+
+            // document.querySelector("h1").innerHTML = "This has been changed by Query Selector"
+
+            document.querySelector("#B").style.backgroundColor="red"
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Hello I'm H1 Heading</h1> 
+
+    <p id="A" class="example">This is a paragraph tag with A</p>
+    <p id="B" class="example">This is a paragraph tag with B</p>
+    <p id="C" class="example">This is a paragraph tag with C</p> 
+
+
+    <div id="change" onclick="clickToChange()"> Click this to change</div>
+</body>
+</html>
